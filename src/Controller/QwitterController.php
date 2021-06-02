@@ -8,7 +8,9 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class QwitterController extends AbstractController
 {
-    #[Route('/qwitter', name: 'qwitter')]
+    /**
+     * @Route("/", name="app_homepage")
+     */
     public function index(): Response
     {
         return $this->render('qwitter/index.html.twig', [

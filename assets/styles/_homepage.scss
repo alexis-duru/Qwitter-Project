@@ -1,0 +1,19 @@
+#homepage {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(94, 160, 190);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-blend-mode: darken;
+    h1 {
+        height: 50px;
+        width: 300px;
+        color: white;
+        display: flex;
+        padding: 50px;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid white;
+    }
+}
